@@ -11,7 +11,6 @@ namespace ModManager
             NAME = "Mod Toggle",
             VERSION = "1.0.0";
         internal static ManualLogSource manualLogSource;
-
         private void Awake() =>
             MonkeStatistics.API.Registry.AddAssembly();
     }
